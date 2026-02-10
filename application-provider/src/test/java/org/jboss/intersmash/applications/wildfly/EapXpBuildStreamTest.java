@@ -46,7 +46,8 @@ public class EapXpBuildStreamTest {
 				ApplicationProvider.wildflyKeycloakSamlAdapterEjbProvisionedServerPath(),
 				ApplicationProvider.wildflyPostgresqlTimerApplicationProvisionedServerPath(),
 				ApplicationProvider.wildflyActiveMQArtemisConnectorProvisionedServerPath(),
-				ApplicationProvider.wildflyActiveMQArtemisJmsBridgeProvisionedServerPath());
+				ApplicationProvider.wildflyActiveMQArtemisJmsBridgeProvisionedServerPath(),
+				ApplicationProvider.wildflyTimerExpirationStoreProvisionedServerPath());
 		provisionedServerPaths.forEach((path) -> {
 			final Path provisionedServerPath = Path
 					.of(path + "/.wildfly-maven-plugin-provisioning.xml");
