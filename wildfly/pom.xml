@@ -185,6 +185,7 @@
                 <module>postgresql-timer-application</module>
                 <module>activemq-artemis-jms-bridge</module>
                 <module>timer-expiration-store</module>
+                <module>distributed-timers-infinispan</module>
             </modules>
         </profile>
         <profile>
@@ -223,6 +224,7 @@
                 <module>postgresql-timer-application</module>
                 <module>activemq-artemis-jms-bridge</module>
                 <module>timer-expiration-store</module>
+                <module>distributed-timers-infinispan</module>
             </modules>
             <build>
                 <pluginManagement>
@@ -320,6 +322,7 @@
                 <module>elytron-oidc-client-keycloak-bootable-jar</module>
                 <module>postgresql-timer-application</module>
                 <module>timer-expiration-store</module>
+                <module>distributed-timers-infinispan</module>
             </modules>
             <build>
                 <pluginManagement>
@@ -423,6 +426,7 @@
                 <module>elytron-oidc-client-keycloak-bootable-jar</module>
                 <module>postgresql-timer-application</module>
                 <module>timer-expiration-store</module>
+                <module>distributed-timers-infinispan</module>
             </modules>
             <build>
                 <pluginManagement>
